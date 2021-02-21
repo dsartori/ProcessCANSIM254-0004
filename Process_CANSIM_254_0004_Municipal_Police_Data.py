@@ -1,9 +1,6 @@
-
 import os
 import petl
-import sys
 import logging as log
-from datetime import date
 
 
 log.basicConfig(level=os.environ.get("LOGLEVEL","INFO"))
